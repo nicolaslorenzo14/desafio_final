@@ -1,0 +1,467 @@
+* {
+  margin: 0.2%;
+  padding: 0%;
+}
+
+@media (max-width: 1440px) {
+  header .logo {
+    text-align: center;
+    width: 0;
+    opacity: 70%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+  }
+  header .logo .logo1 {
+    width: 80px;
+    border-radius: 50%;
+    border-style: dotted;
+    border-color: brown;
+  }
+  header .logo .logo1:hover {
+    -webkit-animation: infinite;
+            animation: infinite;
+    transform: scale(1.2, 1.2);
+    transition: 2s;
+  }
+  header nav {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #5f025f;
+    text-align: center;
+    border-style: double;
+    border-color: aliceblue;
+  }
+  header nav .nav-link {
+    text-align: center;
+    color: wheat;
+  }
+  header nav .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.582);
+    color: #5f025f;
+  }
+  header nav .nav-link:hover .dropdown-item {
+    background-color: #5f025f;
+  }
+  body {
+    font-family: inherit;
+    background-image: url(../carpeta_con_proyecto/multimedios/302175426_466523962035198_669514361756379759_n.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
+  }
+  body h1 {
+    font-family: fantasy;
+    background-color: rgba(0, 0, 0, 0.582);
+    background: linear-gradient(purple, coral, green);
+    color: purple, coral, green;
+    font-size: 3rem;
+    text-align: center;
+  }
+  body h2, body h3 {
+    opacity: 80%;
+    color: lemonchiffon;
+    background-color: saddlebrown;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+  body h4, body h5 {
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 2rem;
+  }
+  body .section1 {
+    background-color: rgba(0, 0, 0, 0.582);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+  }
+  body .section2 {
+    background-color: rgba(0, 0, 0, 0.582);
+    background-attachment: fixed;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+  }
+  body .section3 {
+    background-color: rgba(0, 0, 0, 0.582);
+    background-attachment: inherit;
+    background-position: 100%;
+    background-repeat: round;
+    background-size: 10%;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+  }
+  body .section4 {
+    background-color: burlywood;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: 700px;
+    padding: 10px;
+    margin: 10px;
+  }
+  body .QQQ {
+    background-color: sandybrown;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+  }
+  body .RS {
+    background-color: sandybrown;
+    height: 60px;
+    width: 400px;
+    padding: 10px;
+    margin: 0px;
+  }
+  body .fungi {
+    margin-left: 25%;
+    width: 600px;
+    height: 600px;
+    opacity: 70%;
+    transition: all 2s ease;
+  }
+  body .fungi:hover {
+    transform: rotate(360deg);
+  }
+  body .lucas1 {
+    margin-left: 25%;
+    width: 600px;
+    height: 600px;
+  }
+}
+@media (max-width: 768px) {
+  header .logo {
+    text-align: center;
+    width: 0;
+    opacity: 70%;
+    position: fixed;
+    top: 0%;
+    left: 5%;
+  }
+  header .logo .logo1 {
+    width: 50px;
+    border-radius: 50%;
+  }
+  header .logo .logo1 .logo1:hover {
+    -webkit-animation: infinite;
+            animation: infinite;
+    transform: scale(1.2, 1.2);
+    transition: 2s;
+  }
+  header nav {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #5f025f;
+    text-align: center;
+    border-style: double;
+    border-color: aliceblue;
+  }
+  header nav .nav-link {
+    text-align: center;
+    color: wheat;
+    padding: auto;
+    margin: auto;
+  }
+  header nav .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.582);
+    color: #5f025f;
+  }
+  header nav .nav-link:hover .dropdown-item {
+    background-color: #5f025f;
+  }
+  body {
+    font-family: inherit;
+    background-image: url(../carpeta_con_proyecto/multimedios/302175426_466523962035198_669514361756379759_n.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body h1 {
+    font-family: fantasy;
+    background-color: rgba(0, 0, 0, 0.582);
+    background: linear-gradient(purple, coral, green);
+    color: purple, coral, green;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  body h2, body h3 {
+    background-color: rgb(197, 121, 235);
+    opacity: 80%;
+    color: lemonchiffon;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1rem;
+  }
+  body h4, body h5 {
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 0.8rem;
+  }
+  body .section1 {
+    background-color: rgba(0, 0, 0, 0.582);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: auto;
+    margin: auto;
+  }
+  body .section2 {
+    background-color: rgba(0, 0, 0, 0.582);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: auto;
+    margin: auto;
+  }
+  body .section3 {
+    background-color: rgba(0, 0, 0, 0.582);
+    background-attachment: inherit;
+    background-position: 100%;
+    background-repeat: round;
+    background-size: 10%;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: auto;
+    margin: auto;
+  }
+  body .section4 {
+    background-color: sandybrown;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: auto;
+    margin: auto;
+  }
+  body .QQQ {
+    background-color: sandybrown;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+  }
+  body .RS {
+    background-color: sandybrown;
+    height: 60px;
+    width: 400px;
+    padding: 10px;
+    margin: 0px;
+  }
+  body .fungi {
+    margin-right: 25%;
+    width: 300px;
+    height: 300px;
+    opacity: 70%;
+    padding: 50px;
+  }
+  body:hover {
+    transform: rotate(360deg);
+  }
+  body .lucas1 {
+    margin-left: 20%;
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 425px) {
+  header .logo {
+    text-align: center;
+    width: 0;
+    opacity: 70%;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+  }
+  header .logo .logo1 {
+    width: 50px;
+    border-radius: 50%;
+  }
+  header .logo .logo1 .logo1:hover {
+    -webkit-animation: infinite;
+            animation: infinite;
+    transform: scale(1.2, 1.2);
+    transition: 2s;
+  }
+  header nav {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #5f025f;
+    text-align: end;
+    border-style: double;
+    border-color: aliceblue;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 0px;
+  }
+  header nav .nav-link {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 0px;
+    text-align: end;
+    color: wheat;
+  }
+  header nav .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.582);
+    color: #5f025f;
+  }
+  header nav .nav-link:hover .dropdown-item {
+    background-color: #5f025f;
+  }
+  body {
+    font-family: inherit;
+    background-image: url(../carpeta_con_proyecto/multimedios/302175426_466523962035198_669514361756379759_n.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body h1 {
+    font-family: fantasy;
+    background-color: rgba(0, 0, 0, 0.582);
+    background: linear-gradient(purple, coral, green);
+    color: purple, coral, green;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  body h2, body h3 {
+    background-color: rgb(197, 121, 235);
+    opacity: 80%;
+    color: lemonchiffon;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1rem;
+  }
+  body h4, body h5 {
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 0.8rem;
+  }
+  body .section1 {
+    background-color: rgba(0, 0, 0, 0.582);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+  }
+  body .section2 {
+    background-color: rgba(0, 0, 0, 0.582);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+  }
+  body .section3 {
+    background-color: rgba(0, 0, 0, 0.582);
+    background-attachment: inherit;
+    background-position: 100%;
+    background-repeat: round;
+    background-size: 10%;
+    border-style: double;
+    border-color: aliceblue;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+  }
+  body .section4 {
+    background-color: sandybrown;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+  }
+  body .QQQ {
+    background-color: sandybrown;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+  }
+  body .RS {
+    background-color: sandybrown;
+    height: 60px;
+    width: 400px;
+    padding: 10px;
+    margin: 0px;
+  }
+  body .fungi {
+    height: 350px;
+    width: 350px;
+    padding: 50px;
+    margin: 0%;
+    opacity: 90%;
+  }
+  body .fungi:hover {
+    transform: rotate(360deg);
+  }
+  body .lucas1 {
+    margin-left: 2%;
+    width: 350px;
+    height: 350px;
+  }
+}/*# sourceMappingURL=estilo.css.map */

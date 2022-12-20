@@ -1,0 +1,520 @@
+
+@media (max-width: 1440px){
+
+    header{
+
+        .logo{ 
+            text-align: center;
+            width: 0;
+            opacity: 70%;
+            position:fixed;
+            top: 0%;
+            left: 0%;   
+        .logo1{
+            width: 80px;
+            border-radius: 50%;
+            border-style:dotted;
+            border-color:brown;
+        
+        &:hover{
+            animation: infinite;
+            transform: scale(1.2, 1.2);
+            transition: 2s;
+                    }
+                }
+            }
+    nav{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color:$violeta;
+        text-align: start;
+        border-style: double;
+        border-color: aliceblue;
+        
+        .nav-link{
+            text-align:start;
+            color: wheat;
+        &:hover{
+            background-color: $negro;
+            color: $violeta;
+        
+        .dropdown-item{
+            background-color: $violeta;
+        }
+    }
+        }
+    }
+    }
+    
+   
+body{
+    font-family: inherit;
+    background-image: url(../carpeta_con_proyecto/multimedios/302175426_466523962035198_669514361756379759_n.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
+    h1{
+        font-family: fantasy;
+        background-color: $negro;
+        background: linear-gradient($mezcla);
+        color: $mezcla;
+        font-size: 3rem; 
+        text-align: center;
+    }
+        
+    h2,h3{
+        opacity: 80%;
+        color: lemonchiffon;
+        background-color: saddlebrown;
+        font-family: sans-serif;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    h4,h5{
+        color:$negro;
+        font-size: 2rem;
+    }
+
+
+.section1{
+    background-color: $negro;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: 100px;
+    margin: 10px;
+}
+.section2{
+    background-color: $negro;
+    background-attachment: fixed;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+.section3{
+    background-color: $negro;
+    background-attachment: inherit;
+    background-position: 100%;
+    background-repeat: round;
+    background-size: 10%;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+
+}
+.section4{
+    background-color: burlywood;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: 700px;
+    padding: 10px;
+    margin: 10px;
+
+}
+.QQQ{
+    background-color: sandybrown;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.RS{
+    background-color: sandybrown;
+    height: 60px;
+    width: 400px;
+    padding: 10px;
+    margin: 0px;
+}
+.fungi{
+    margin-left: 25%;
+    width: 600px;
+    height: 600px;
+    opacity: 70%;
+    transition: all 2s ease;
+
+&:hover{
+    transform: rotate(360deg)
+}
+}
+.lucas1{
+    margin-left: 25%;
+    width: 600px;
+    height: 600px;
+}
+    }
+}
+@media(max-width: 768px){
+
+    header{
+        .logo{ 
+            text-align: center;
+            width: 0;
+            opacity: 70%;
+            position:fixed;
+            top: 0%;
+            left: 5%;
+        .logo1{
+            width: 50px;
+            border-radius: 50%;
+
+        
+        .logo1:hover{
+            animation: infinite;
+            transform: scale(1.2, 1.2);
+            transition: 2s;
+        }
+    }}
+    
+        nav{
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           
+        background-color:$violeta;
+      
+        border-style: double;
+        border-color: aliceblue;
+        
+        .nav-link{
+            text-align:justify;
+            color: wheat;
+            height: 60px;
+            width: 400px;
+            padding: 20px;
+            margin: 20px;
+            &:hover{
+            background-color: $negro;
+            color: $violeta;
+        
+        .dropdown-item{
+            background-color: $violeta;
+        }}}}
+    }
+    
+    
+        body{
+    
+            font-family: inherit;
+            background-image:url(../carpeta_con_proyecto/multimedios/302175426_466523962035198_669514361756379759_n.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;      
+        h1{
+            font-family: fantasy;
+            background-color: $negro;
+            background: linear-gradient($mezcla);
+            color: $mezcla;
+            font-size:1.5rem;
+            text-align: center;
+        }
+        
+        h2,h3{
+            background-color: rgb(197, 121, 235) ;
+            opacity: 80%;
+            color: lemonchiffon;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 1rem;}
+    
+        h4,h5{
+            color: $negro;
+            font-size: 0.8rem;
+        }
+        
+    
+        .section1{
+            background-color: $negro;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-style: double;
+            border-color: aliceblue;
+            height: auto;
+            padding: auto;
+            margin: auto;
+        }
+        
+        .section2{
+            background-color: $negro;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-style: double;
+            border-color: aliceblue;
+            height: auto;
+            padding: auto;
+            margin: auto; }
+        .section3{
+            background-color: $negro;    
+            background-attachment: inherit;
+            background-position: 100%;
+            background-repeat: round;
+            background-size: 10%;
+            border-style: double;
+            border-color: aliceblue;
+            height: auto;
+            padding: auto;
+            margin: auto;
+        }
+        .section4{
+            background-color: sandybrown;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-style: double;
+            border-color: aliceblue;
+            height: auto;
+            padding: auto;
+            margin: auto;    
+        }
+        
+.QQQ{
+    background-color: sandybrown;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.RS{
+    background-color: sandybrown;
+    margin: 0px;
+    height: 60px;
+    width: 400px;
+    padding: 10px;
+}
+
+        .fungi{
+           
+            margin-right: 25% ;
+            width: 300px;
+            height: 300px;
+            opacity: 70%;
+            padding: 50px;}
+        &:hover{
+            transform: rotate(360deg)
+            }
+    
+        .lucas1{
+            margin-left: 20%;
+            width: 400px;
+            height: 400px;   
+}  }}
+
+
+
+
+
+@media(max-width:425px)
+{
+    
+    header{
+        .logo{ 
+            text-align: center;
+            width: 0;
+            opacity: 70%;
+            position:fixed;
+            top: 5%;
+            left: 5%;        
+        .logo1{
+            width: 50px;
+            border-radius: 50%;
+            .logo1:hover{
+                animation: infinite;
+                transform: scale(1.2, 1.2);
+                transition: 2s;
+            }
+        }
+    }
+    
+    
+    nav{
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color:$violeta;
+            text-align:start;
+            border-style: double;
+            border-color: aliceblue;
+            width: 400px;
+            height: auto;
+            margin: auto;
+            padding: 0px;
+        
+        .nav-link{
+              width: 400px;
+            height: auto;
+            margin: auto;
+            padding: 0px;
+            text-align:end;
+            color: wheat;
+        &:hover{
+            background-color: $negro;
+            color: $violeta;
+        
+        .dropdown-item{
+            background-color: $violeta;
+        }}}}
+    }
+    
+    
+        body{
+    
+            font-family: inherit;
+            background-image:url(../carpeta_con_proyecto/multimedios/302175426_466523962035198_669514361756379759_n.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        
+        
+        h1{
+            font-family: fantasy;
+            background-color: $negro;
+            background: linear-gradient($mezcla);
+            color: $mezcla;
+            font-size:1.5rem;
+            text-align: center;
+        }
+        
+        h2,h3{
+            background-color: rgb(197, 121, 235) ;
+            opacity: 80%;
+            color: lemonchiffon;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 1rem;}
+    
+        h4,h5{
+            color: $negro;
+            font-size: 0.8rem;
+        }
+        
+    
+        .section1{
+            background-color: $negro;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-style: double;
+            border-color: aliceblue;
+            width: 400px;
+            height: auto;
+            margin: auto;
+            padding: 25px;
+        }
+        
+        .section2{
+            background-color: $negro;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-style: double;
+            border-color: aliceblue;
+            width: 400px;
+            height: auto;
+            margin: auto;
+            padding: 25px;
+        }
+        .section3{
+            background-color: $negro;    
+            background-attachment: inherit;
+            background-position: 100%;
+            background-repeat: round;
+            background-size: 10%;
+            border-style: double;
+            border-color: aliceblue;
+            width: 400px;
+            height: auto;
+            margin: auto;
+            padding: 25px;
+        }
+        .section4{
+            background-color: sandybrown;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-style: double;
+            border-color: aliceblue;
+            width: 400px;
+            height: auto;
+            margin: auto;
+            padding: 25px;
+            
+        }
+        
+.QQQ{
+    background-color: sandybrown;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: aliceblue;
+width: 400px;
+            height: auto;
+            margin: auto;
+            padding: 25px;
+
+}
+
+.RS{
+    background-color: sandybrown;
+    height: 60px;
+    width: 400px;
+    padding: 10px;
+    margin: 0px;
+}
+        
+        .fungi{
+           
+            height: 350px;
+            width: 350px;
+            padding: 50px;
+            margin: 0% ;
+            opacity: 90%;
+        
+        &:hover{
+            transform: rotate(360deg)
+        }}
+        .lucas1{
+            margin-left: 2%;
+            width: 350px;
+            height: 350px;
+    }}  }
+
+
